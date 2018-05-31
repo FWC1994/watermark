@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水印页面测试</title>
+    <script type="text/javascript" src="./WaterMark.js"></script>
+    <style>
+        html,body{
+            height:100%;
+            width:100%;
+            margin:0;
+            padding:0;
+        }
+    </style>
+</head>
+<body>
+</body>
+<script>
+    var waterMark = new WaterMark(document.getElementsByTagName('body')[0],{
+        text:"这是一条水印",
+        color:"#000000",
+        imageSrc:'./logo.png'
+    });
+</script>
+</html>
