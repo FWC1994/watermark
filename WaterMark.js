@@ -105,6 +105,7 @@ WaterMark.prototype = {
             that.refresh()
         }
     },
+    
     /* 刷新水印 水印容器大小发生变化是调用 */
     refresh: function() {
         if(this.markContainer){
