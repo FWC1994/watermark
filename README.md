@@ -2,7 +2,7 @@
 网页水印库的封装 支持文字+图片 可伸缩
 
 ## 效果展示
-![watemark](http://baidu.com/pic/doge.png)
+![watemark](https://github.com/FWC1994/watermark/blob/master/demo/demo.gif?raw=true)
 ## 原理讲解
 
 1、计算水印添加的容器的高度和宽度。
